@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on Wed Jul 17 14:28:00 2024
+This experiment was created using PsychoPy3 Experiment Builder (v2024.1.5),
+    on Sun Aug  4 09:58:05 2024
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -39,7 +39,7 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2024.1.4'
+psychopyVersion = '2024.1.5'
 expName = '5-36 ready-Persian trained'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
@@ -257,21 +257,9 @@ def setupDevices(expInfo, thisExp, win):
             deviceClass='keyboard',
             deviceName='key_resp',
         )
-    # create speaker 'sound_7'
-    deviceManager.addDevice(
-        deviceName='sound_7',
-        deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=-1
-    )
     # create speaker 'sound_8'
     deviceManager.addDevice(
         deviceName='sound_8',
-        deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=-1
-    )
-    # create speaker 'sound_9'
-    deviceManager.addDevice(
-        deviceName='sound_9',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
         index=-1
     )
@@ -281,21 +269,9 @@ def setupDevices(expInfo, thisExp, win):
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
         index=-1
     )
-    # create speaker 'sound_11'
-    deviceManager.addDevice(
-        deviceName='sound_11',
-        deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=-1
-    )
     # create speaker 'sound_12'
     deviceManager.addDevice(
         deviceName='sound_12',
-        deviceClass='psychopy.hardware.speaker.SpeakerDevice',
-        index=-1
-    )
-    # create speaker 'sound_13'
-    deviceManager.addDevice(
-        deviceName='sound_13',
         deviceClass='psychopy.hardware.speaker.SpeakerDevice',
         index=-1
     )
@@ -437,7 +413,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "GroupSelection" ---
     GroupInstructions = visual.TextStim(win=win, name='GroupInstructions',
-        text='Welcome to the Speaker Identification Task Experiment\n\nPlease make sure to do the experiment in a quiet room.\n\nPress 1 for Group 1, 2 for Group 2, 3 for Group 3.\n\nبه آزمایش شناسایی گوینده خوش آمدید\n \nلطفا در محیطی آرام آزمایش را انجام دهید\n\nبرای گزینش گروه خود عدد ۱ یا ۲ یا ۳ را  انتخاب کنید',
+        text='به آزمایش شناسایی گوینده خوش آمدید\n \nلطفا در محیطی آرام آزمایش را انجام دهید\n\nبرای گزینش گروه خود عدد ۱ یا ۲ یا ۳ را  انتخاب کنید',
         font='Arial',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -449,7 +425,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "HeadphoneCheck" ---
     text_13 = visual.TextStim(win=win, name='text_13',
-        text='Please tick the box if you are using headphones. Leave it unticked if you are not.\n\nاگر از هدفون استفاده میکنید روی باکس سفید کلیک کنید\n در غیر این صورت روی باکس کلیک نکنید',
+        text='اگر از هدفون استفاده میکنید روی باکس سفید کلیک کنید\n در غیر این صورت روی باکس کلیک نکنید',
         font='Arial',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -467,7 +443,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Introduction" ---
     text_2 = visual.TextStim(win=win, name='text_2',
-        text='Introduction: \nYou will hear four speakers in English and Persian to help you familiarize yourself with them.\nدر ابتدا به صدای چهار گوینده گوش دهید تا با آنها آشنا شوید',
+        text='در ابتدا به صدای چهار گوینده گوش دهید تا با آنها آشنا شوید',
         font='Arial',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -481,14 +457,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
-    sound_7 = sound.Sound(
-        'A', 
-        secs=-1, 
-        stereo=True, 
-        hamming=True, 
-        speaker='sound_7',    name='sound_7'
-    )
-    sound_7.setVolume(1.0)
     sound_8 = sound.Sound(
         'A', 
         secs=-1, 
@@ -503,7 +471,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.3), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='Arabic',
-        depth=-4.0);
+        depth=-3.0);
     image_7 = visual.ImageStim(
         win=win,
         name='image_7', 
@@ -511,15 +479,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, 0), size=(0.5, 0.5),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-5.0)
-    sound_9 = sound.Sound(
-        'A', 
-        secs=-1, 
-        stereo=True, 
-        hamming=True, 
-        speaker='sound_9',    name='sound_9'
-    )
-    sound_9.setVolume(1.0)
+        texRes=128.0, interpolate=True, depth=-4.0)
     sound_10 = sound.Sound(
         'A', 
         secs=-1, 
@@ -534,7 +494,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.33), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='Arabic',
-        depth=-8.0);
+        depth=-6.0);
     image_8 = visual.ImageStim(
         win=win,
         name='image_8', 
@@ -542,15 +502,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, 0), size=(0.5, 0.5),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-9.0)
-    sound_11 = sound.Sound(
-        'A', 
-        secs=-1, 
-        stereo=True, 
-        hamming=True, 
-        speaker='sound_11',    name='sound_11'
-    )
-    sound_11.setVolume(1.0)
+        texRes=128.0, interpolate=True, depth=-7.0)
     sound_12 = sound.Sound(
         'A', 
         secs=-1, 
@@ -565,7 +517,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.3), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='Arabic',
-        depth=-12.0);
+        depth=-9.0);
     image_9 = visual.ImageStim(
         win=win,
         name='image_9', 
@@ -573,15 +525,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0, 0), size=(0.5, 0.5),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-13.0)
-    sound_13 = sound.Sound(
-        'A', 
-        secs=-1, 
-        stereo=True, 
-        hamming=True, 
-        speaker='sound_13',    name='sound_13'
-    )
-    sound_13.setVolume(1.0)
+        texRes=128.0, interpolate=True, depth=-10.0)
     sound_14 = sound.Sound(
         'A', 
         secs=-1, 
@@ -596,11 +540,11 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         pos=(0, -0.33), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='Arabic',
-        depth=-16.0);
+        depth=-12.0);
     
     # --- Initialize components for Routine "Instructions" ---
     InstructionText = visual.TextStim(win=win, name='InstructionText',
-        text='This experiment has two phases: Training and Test.\nPress the number of the speaker on the keyboard after each sentence.\nIn the Training Phase, you will receive feedback. In the Test Phase, there will be no feedback.\n\nاین آزمایش دو مرحله دارد: آموزش و آزمون\nدر طول هر مرحله شماره گوینده را وارد کنید\nدر مرحله آموزش پاسخ صحیح را دریافت خواهید کرد\n اما در مرحله آزمون بازخوردی دریافت نخواهید کرد',
+        text='این آزمایش دو مرحله دارد: آموزش و آزمون\n\nدر طول هر مرحله شماره گوینده را وارد کنید\n\nدر مرحله آموزش پاسخ صحیح را دریافت خواهید کرد\n اما در مرحله آزمون بازخوردی دریافت نخواهید کرد',
         font='Arial',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -644,7 +588,17 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     retry_training = False  # Flag to determine if participant should retry training phase
     
     # Initialize TrainingGroup (you can set this value based on your experimental design)
-    TrainingGroup = 1  # or 2, or 3 depending on your experiment setup
+    TrainingGroup = 2  # or 2, or 3 depending on your experiment setup
+    sessionNumber = 1  # Initialize session number
+    
+    import time
+    
+    trial_count = 0
+    break_after_trials = 40
+    break_duration = 360  # 5 minutes in seconds
+    break_flag = False
+    break_start_time = None
+    break_message = "take a break"
     
     # --- Initialize components for Routine "TrainingGroup2" ---
     image_11 = visual.ImageStim(
@@ -695,6 +649,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='Arabic',
         depth=-6.0);
     Response2 = keyboard.Keyboard(deviceName='Response2')
+    # Run 'Begin Experiment' code from SessionManager
+    trialN = 0
+    SessionNumberTest = visual.TextStim(win=win, name='SessionNumberTest',
+        text='',
+        font='Arial',
+        pos=(0, 0.30), height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='Arabic',
+        depth=-9.0);
     
     # --- Initialize components for Routine "FeedbackRoutine2" ---
     FeedbackText2 = visual.TextStim(win=win, name='FeedbackText2',
@@ -705,11 +668,40 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='Arabic',
         depth=0.0);
     
+    # --- Initialize components for Routine "Break" ---
+    break_message = visual.TextStim(win=win, name='break_message',
+        text='لطفا کمی استراحت کنید\nدر غیر اینصورت برای ادامه روی مربع کلیک کنید',
+        font='Arial',
+        pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='Arabic',
+        depth=-1.0);
+    mouse2 = event.Mouse(win=win)
+    x, y = [None, None]
+    mouse2.mouseClock = core.Clock()
+    checkbox2 = visual.Rect(
+        win=win, name='checkbox2',
+        width=(0.1, 0.1)[0], height=(0.1, 0.1)[1],
+        ori=0.0, pos=(0, -0.2), anchor='center',
+        lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+        opacity=None, depth=-3.0, interpolate=True)
+    # Run 'Begin Experiment' code from code_19
+    # Create a clock for the timer
+    break_timer = core.Clock()
+    
+    text_component = visual.TextStim(win=win, name='text_component',
+        text='Any text\n\nincluding line breaks',
+        font='Arial',
+        pos=(0, 0.30), height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='Arabic',
+        depth=-7.0);
+    
     # --- Initialize components for Routine "CheckAccuracy2" ---
     
     # --- Initialize components for Routine "WelcomeTest" ---
     text_12 = visual.TextStim(win=win, name='text_12',
-        text='Weolcome to the Test Phase!\nPlease enter the number corresponding to the speaker you hear.\nبه مرحله آزمون خوش امدید\nلطفا پس از شنیدن جملات٬ شماره گوینده را وارد کنید',
+        text='Weolcome to the Test Phase!\nPlease enter the number corresponding to the speaker you hear.\nبه مرحله آزمون خوش آمدید\nلطفا پس از شنیدن جملات٬ شماره گوینده را وارد کنید',
         font='Arial',
         pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -865,6 +857,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     continueRoutine = True
     # update component parameters for each repeat
     thisExp.addData('GroupSelection.started', globalClock.getTime(format='float'))
+    # create starting attributes for key_resp
     key_resp.keys = []
     key_resp.rt = []
     _key_resp_allKeys = []
@@ -1035,6 +1028,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from CheckBoxLogic
     checkbox_ticked = False
     
+    # Run 'Begin Routine' code from code_10
+    win.mouseVisible = True
+    
     # keep track of which components have finished
     HeadphoneCheckComponents = [text_13, mouse, checkbox]
     for thisComponent in HeadphoneCheckComponents:
@@ -1051,7 +1047,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Run Routine "HeadphoneCheck" ---
     routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 5.0:
+    while continueRoutine:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1107,19 +1103,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             mouse.status = STARTED
             mouse.mouseClock.reset()
             prevButtonState = mouse.getPressed()  # if button is down already this ISN'T a new click
-        
-        # if mouse is stopping this frame...
-        if mouse.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > mouse.tStartRefresh + 5-frameTolerance:
-                # keep track of stop time/frame for later
-                mouse.tStop = t  # not accounting for scr refresh
-                mouse.tStopRefresh = tThisFlipGlobal  # on global time
-                mouse.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.addData('mouse.stopped', t)
-                # update status
-                mouse.status = FINISHED
         if mouse.status == STARTED:  # only update if started and not finished!
             buttons = mouse.getPressed()
             if buttons != prevButtonState:  # button state changed?
@@ -1223,51 +1206,36 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'End Routine' code from CheckBoxLogic
     thisExp.addData('Headphone_Used', checkbox_ticked)
     
-    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-    if routineForceEnded:
-        routineTimer.reset()
-    else:
-        routineTimer.addTime(-5.000000)
     thisExp.nextEntry()
+    # the Routine "HeadphoneCheck" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # --- Prepare to start Routine "Introduction" ---
     continueRoutine = True
     # update component parameters for each repeat
     thisExp.addData('Introduction.started', globalClock.getTime(format='float'))
     image.setImage('Images/Speaker1.jpg')
-    sound_7.setSound('Audio/Speaker1_En/P1-23-En.wav', secs=5, hamming=True)
-    sound_7.setVolume(1.0, log=False)
-    sound_7.seek(0)
     sound_8.setSound('Audio/Speaker1_Per/P1-23-Per.wav', secs=5, hamming=True)
     sound_8.setVolume(1.0, log=False)
     sound_8.seek(0)
-    text_4.setText('Speaker 1\nگوینده ۱')
+    text_4.setText('گوینده ۱')
     image_7.setImage('Images/Speaker2.jpg')
-    sound_9.setSound('Audio/Speaker2_En/P2-23-En.wav', secs=5, hamming=True)
-    sound_9.setVolume(1.0, log=False)
-    sound_9.seek(0)
     sound_10.setSound('Audio/Speaker2_Per/P2-23-Per.wav', secs=5, hamming=True)
     sound_10.setVolume(1.0, log=False)
     sound_10.seek(0)
-    text_5.setText('Speaker 2\nگوینده ۲\n')
+    text_5.setText('گوینده ۲\n')
     image_8.setImage('Images/Speaker3.jpg')
-    sound_11.setSound('Audio/Speaker3_En/P3-23-En.wav', secs=5, hamming=True)
-    sound_11.setVolume(1.0, log=False)
-    sound_11.seek(0)
     sound_12.setSound('Audio/Speaker3_Per/P3-23-Per.wav', secs=5, hamming=True)
     sound_12.setVolume(1.0, log=False)
     sound_12.seek(0)
-    text_6.setText('Speaker 3\nگوینده ۳')
+    text_6.setText('گوینده ۳')
     image_9.setImage('Images/Speaker4.jpg')
-    sound_13.setSound('Audio/Speaker4_En/P4-23-En.wav', secs=5, hamming=True)
-    sound_13.setVolume(1.0, log=False)
-    sound_13.seek(0)
     sound_14.setSound('Audio/Speaker4_Per/P4-23-Per.wav', secs=5, hamming=True)
     sound_14.setVolume(1.0, log=False)
     sound_14.seek(0)
-    text_7.setText('Speaker 4\nگوینده ۴\n')
+    text_7.setText('گوینده ۴\n')
     # keep track of which components have finished
-    IntroductionComponents = [text_2, image, sound_7, sound_8, text_4, image_7, sound_9, sound_10, text_5, image_8, sound_11, sound_12, text_6, image_9, sound_13, sound_14, text_7]
+    IntroductionComponents = [text_2, image, sound_8, text_4, image_7, sound_10, text_5, image_8, sound_12, text_6, image_9, sound_14, text_7]
     for thisComponent in IntroductionComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1282,7 +1250,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Run Routine "Introduction" ---
     routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 45.0:
+    while continueRoutine and routineTimer.getTime() < 31.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1347,7 +1315,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if image is stopping this frame...
         if image.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > image.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 image.tStop = t  # not accounting for scr refresh
                 image.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1358,39 +1326,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 image.status = FINISHED
                 image.setAutoDraw(False)
         
-        # if sound_7 is starting this frame...
-        if sound_7.status == NOT_STARTED and tThisFlip >= 5-frameTolerance:
-            # keep track of start time/frame for later
-            sound_7.frameNStart = frameN  # exact frame index
-            sound_7.tStart = t  # local t and not account for scr refresh
-            sound_7.tStartRefresh = tThisFlipGlobal  # on global time
-            # add timestamp to datafile
-            thisExp.addData('sound_7.started', tThisFlipGlobal)
-            # update status
-            sound_7.status = STARTED
-            sound_7.play(when=win)  # sync with win flip
-        
-        # if sound_7 is stopping this frame...
-        if sound_7.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_7.tStartRefresh + 5-frameTolerance:
-                # keep track of stop time/frame for later
-                sound_7.tStop = t  # not accounting for scr refresh
-                sound_7.tStopRefresh = tThisFlipGlobal  # on global time
-                sound_7.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'sound_7.stopped')
-                # update status
-                sound_7.status = FINISHED
-                sound_7.stop()
-        # update sound_7 status according to whether it's playing
-        if sound_7.isPlaying:
-            sound_7.status = STARTED
-        elif sound_7.isFinished:
-            sound_7.status = FINISHED
-        
         # if sound_8 is starting this frame...
-        if sound_8.status == NOT_STARTED and tThisFlip >= 10-frameTolerance:
+        if sound_8.status == NOT_STARTED and tThisFlip >= 5-frameTolerance:
             # keep track of start time/frame for later
             sound_8.frameNStart = frameN  # exact frame index
             sound_8.tStart = t  # local t and not account for scr refresh
@@ -1443,7 +1380,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if text_4 is stopping this frame...
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1457,7 +1394,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *image_7* updates
         
         # if image_7 is starting this frame...
-        if image_7.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if image_7.status == NOT_STARTED and tThisFlip >= 12-frameTolerance:
             # keep track of start time/frame for later
             image_7.frameNStart = frameN  # exact frame index
             image_7.tStart = t  # local t and not account for scr refresh
@@ -1477,7 +1414,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if image_7 is stopping this frame...
         if image_7.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_7.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > image_7.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_7.tStop = t  # not accounting for scr refresh
                 image_7.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1488,39 +1425,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 image_7.status = FINISHED
                 image_7.setAutoDraw(False)
         
-        # if sound_9 is starting this frame...
-        if sound_9.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
-            # keep track of start time/frame for later
-            sound_9.frameNStart = frameN  # exact frame index
-            sound_9.tStart = t  # local t and not account for scr refresh
-            sound_9.tStartRefresh = tThisFlipGlobal  # on global time
-            # add timestamp to datafile
-            thisExp.addData('sound_9.started', tThisFlipGlobal)
-            # update status
-            sound_9.status = STARTED
-            sound_9.play(when=win)  # sync with win flip
-        
-        # if sound_9 is stopping this frame...
-        if sound_9.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_9.tStartRefresh + 5-frameTolerance:
-                # keep track of stop time/frame for later
-                sound_9.tStop = t  # not accounting for scr refresh
-                sound_9.tStopRefresh = tThisFlipGlobal  # on global time
-                sound_9.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'sound_9.stopped')
-                # update status
-                sound_9.status = FINISHED
-                sound_9.stop()
-        # update sound_9 status according to whether it's playing
-        if sound_9.isPlaying:
-            sound_9.status = STARTED
-        elif sound_9.isFinished:
-            sound_9.status = FINISHED
-        
         # if sound_10 is starting this frame...
-        if sound_10.status == NOT_STARTED and tThisFlip >= 20-frameTolerance:
+        if sound_10.status == NOT_STARTED and tThisFlip >= 12-frameTolerance:
             # keep track of start time/frame for later
             sound_10.frameNStart = frameN  # exact frame index
             sound_10.tStart = t  # local t and not account for scr refresh
@@ -1553,7 +1459,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *text_5* updates
         
         # if text_5 is starting this frame...
-        if text_5.status == NOT_STARTED and tThisFlip >= 15-frameTolerance:
+        if text_5.status == NOT_STARTED and tThisFlip >= 12-frameTolerance:
             # keep track of start time/frame for later
             text_5.frameNStart = frameN  # exact frame index
             text_5.tStart = t  # local t and not account for scr refresh
@@ -1573,7 +1479,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if text_5 is stopping this frame...
         if text_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_5.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > text_5.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_5.tStop = t  # not accounting for scr refresh
                 text_5.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1587,7 +1493,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *image_8* updates
         
         # if image_8 is starting this frame...
-        if image_8.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
+        if image_8.status == NOT_STARTED and tThisFlip >= 19-frameTolerance:
             # keep track of start time/frame for later
             image_8.frameNStart = frameN  # exact frame index
             image_8.tStart = t  # local t and not account for scr refresh
@@ -1607,7 +1513,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if image_8 is stopping this frame...
         if image_8.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_8.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > image_8.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_8.tStop = t  # not accounting for scr refresh
                 image_8.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1618,39 +1524,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 image_8.status = FINISHED
                 image_8.setAutoDraw(False)
         
-        # if sound_11 is starting this frame...
-        if sound_11.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
-            # keep track of start time/frame for later
-            sound_11.frameNStart = frameN  # exact frame index
-            sound_11.tStart = t  # local t and not account for scr refresh
-            sound_11.tStartRefresh = tThisFlipGlobal  # on global time
-            # add timestamp to datafile
-            thisExp.addData('sound_11.started', tThisFlipGlobal)
-            # update status
-            sound_11.status = STARTED
-            sound_11.play(when=win)  # sync with win flip
-        
-        # if sound_11 is stopping this frame...
-        if sound_11.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_11.tStartRefresh + 5-frameTolerance:
-                # keep track of stop time/frame for later
-                sound_11.tStop = t  # not accounting for scr refresh
-                sound_11.tStopRefresh = tThisFlipGlobal  # on global time
-                sound_11.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'sound_11.stopped')
-                # update status
-                sound_11.status = FINISHED
-                sound_11.stop()
-        # update sound_11 status according to whether it's playing
-        if sound_11.isPlaying:
-            sound_11.status = STARTED
-        elif sound_11.isFinished:
-            sound_11.status = FINISHED
-        
         # if sound_12 is starting this frame...
-        if sound_12.status == NOT_STARTED and tThisFlip >= 30-frameTolerance:
+        if sound_12.status == NOT_STARTED and tThisFlip >= 19-frameTolerance:
             # keep track of start time/frame for later
             sound_12.frameNStart = frameN  # exact frame index
             sound_12.tStart = t  # local t and not account for scr refresh
@@ -1683,7 +1558,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *text_6* updates
         
         # if text_6 is starting this frame...
-        if text_6.status == NOT_STARTED and tThisFlip >= 25-frameTolerance:
+        if text_6.status == NOT_STARTED and tThisFlip >= 19-frameTolerance:
             # keep track of start time/frame for later
             text_6.frameNStart = frameN  # exact frame index
             text_6.tStart = t  # local t and not account for scr refresh
@@ -1703,7 +1578,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if text_6 is stopping this frame...
         if text_6.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_6.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > text_6.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_6.tStop = t  # not accounting for scr refresh
                 text_6.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1717,7 +1592,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *image_9* updates
         
         # if image_9 is starting this frame...
-        if image_9.status == NOT_STARTED and tThisFlip >= 35-frameTolerance:
+        if image_9.status == NOT_STARTED and tThisFlip >= 26-frameTolerance:
             # keep track of start time/frame for later
             image_9.frameNStart = frameN  # exact frame index
             image_9.tStart = t  # local t and not account for scr refresh
@@ -1737,7 +1612,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if image_9 is stopping this frame...
         if image_9.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_9.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > image_9.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_9.tStop = t  # not accounting for scr refresh
                 image_9.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1748,39 +1623,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 image_9.status = FINISHED
                 image_9.setAutoDraw(False)
         
-        # if sound_13 is starting this frame...
-        if sound_13.status == NOT_STARTED and tThisFlip >= 35-frameTolerance:
-            # keep track of start time/frame for later
-            sound_13.frameNStart = frameN  # exact frame index
-            sound_13.tStart = t  # local t and not account for scr refresh
-            sound_13.tStartRefresh = tThisFlipGlobal  # on global time
-            # add timestamp to datafile
-            thisExp.addData('sound_13.started', tThisFlipGlobal)
-            # update status
-            sound_13.status = STARTED
-            sound_13.play(when=win)  # sync with win flip
-        
-        # if sound_13 is stopping this frame...
-        if sound_13.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > sound_13.tStartRefresh + 5-frameTolerance:
-                # keep track of stop time/frame for later
-                sound_13.tStop = t  # not accounting for scr refresh
-                sound_13.tStopRefresh = tThisFlipGlobal  # on global time
-                sound_13.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'sound_13.stopped')
-                # update status
-                sound_13.status = FINISHED
-                sound_13.stop()
-        # update sound_13 status according to whether it's playing
-        if sound_13.isPlaying:
-            sound_13.status = STARTED
-        elif sound_13.isFinished:
-            sound_13.status = FINISHED
-        
         # if sound_14 is starting this frame...
-        if sound_14.status == NOT_STARTED and tThisFlip >= 40-frameTolerance:
+        if sound_14.status == NOT_STARTED and tThisFlip >= 26-frameTolerance:
             # keep track of start time/frame for later
             sound_14.frameNStart = frameN  # exact frame index
             sound_14.tStart = t  # local t and not account for scr refresh
@@ -1813,7 +1657,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # *text_7* updates
         
         # if text_7 is starting this frame...
-        if text_7.status == NOT_STARTED and tThisFlip >= 35-frameTolerance:
+        if text_7.status == NOT_STARTED and tThisFlip >= 26-frameTolerance:
             # keep track of start time/frame for later
             text_7.frameNStart = frameN  # exact frame index
             text_7.tStart = t  # local t and not account for scr refresh
@@ -1833,7 +1677,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if text_7 is stopping this frame...
         if text_7.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_7.tStartRefresh + 10-frameTolerance:
+            if tThisFlipGlobal > text_7.tStartRefresh + 5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_7.tStop = t  # not accounting for scr refresh
                 text_7.tStopRefresh = tThisFlipGlobal  # on global time
@@ -1870,19 +1714,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     thisExp.addData('Introduction.stopped', globalClock.getTime(format='float'))
-    sound_7.pause()  # ensure sound has stopped at end of Routine
     sound_8.pause()  # ensure sound has stopped at end of Routine
-    sound_9.pause()  # ensure sound has stopped at end of Routine
     sound_10.pause()  # ensure sound has stopped at end of Routine
-    sound_11.pause()  # ensure sound has stopped at end of Routine
     sound_12.pause()  # ensure sound has stopped at end of Routine
-    sound_13.pause()  # ensure sound has stopped at end of Routine
     sound_14.pause()  # ensure sound has stopped at end of Routine
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-45.000000)
+        routineTimer.addTime(-31.000000)
     thisExp.nextEntry()
     
     # --- Prepare to start Routine "Instructions" ---
@@ -2034,6 +1874,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     thisExp.addData('InitializeExperiment.stopped', globalClock.getTime(format='float'))
+    # Run 'End Routine' code from code_12
+    sessionNumber += 1  # Increment session number
+    
     thisExp.nextEntry()
     # the Routine "InitializeExperiment" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -2123,12 +1966,19 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             Sound2.setSound(TrainingSound, hamming=True)
             Sound2.setVolume(1.0, log=False)
             Sound2.seek(0)
-            Instruction2.setText('Who is speaking? press the number corresponding to the speaker.\nگوینده کیست؟ شماره گوینده را وارد کنید')
+            Instruction2.setText('گوینده کیست؟ شماره گوینده را وارد کنید')
+            # create starting attributes for Response2
             Response2.keys = []
             Response2.rt = []
             _Response2_allKeys = []
+            # Run 'Begin Routine' code from SessionManager
+            if trialN  == 80:
+                trialN = 1
+            else:
+                trialN +=1
+            SessionNumberTest.setText(str(trialN) + ' out of 80')
             # keep track of which components have finished
-            TrainingGroup2Components = [image_11, SpeakerPicture2, image_5, image_6, Sound2, Instruction2, Response2]
+            TrainingGroup2Components = [image_11, SpeakerPicture2, image_5, image_6, Sound2, Instruction2, Response2, SessionNumberTest]
             for thisComponent in TrainingGroup2Components:
                 thisComponent.tStart = None
                 thisComponent.tStop = None
@@ -2296,6 +2146,26 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                         # a response ends the routine
                         continueRoutine = False
                 
+                # *SessionNumberTest* updates
+                
+                # if SessionNumberTest is starting this frame...
+                if SessionNumberTest.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    SessionNumberTest.frameNStart = frameN  # exact frame index
+                    SessionNumberTest.tStart = t  # local t and not account for scr refresh
+                    SessionNumberTest.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(SessionNumberTest, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'SessionNumberTest.started')
+                    # update status
+                    SessionNumberTest.status = STARTED
+                    SessionNumberTest.setAutoDraw(True)
+                
+                # if SessionNumberTest is active this frame...
+                if SessionNumberTest.status == STARTED:
+                    # update params
+                    pass
+                
                 # check for quit (typically the Esc key)
                 if defaultKeyboard.getKeys(keyList=["escape"]):
                     thisExp.status = FINISHED
@@ -2333,9 +2203,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # Check the participant's response
                 if participant_response_label == CorrectAnswer:
                     correctResponses += 1
-                    feedbackText = "Correct! صحیح است"
+                    feedbackText = "صحیح است"
                 else:
-                    feedbackText = f"Incorrect! The correct answer is {EnglishCorrectAnswer}. نادرست! پاسخ صحیح {PersianCorrectAnswer} است"
+                    feedbackText = f"نادرست! پاسخ صحیح {PersianCorrectAnswer} است"  # Removed the full stop
             
                 total_trials += 1
             
@@ -2357,6 +2227,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             if Response2.keys != None:  # we had a response
                 TrainingLoopGroup2.addData('Response2.rt', Response2.rt)
                 TrainingLoopGroup2.addData('Response2.duration', Response2.duration)
+            # Run 'End Routine' code from SessionManager
+            sessionNumber += 1  # Increment session number
+            print(f"Updated session number: {sessionNumber}")  # Debugging
+            
             # the Routine "TrainingGroup2" was not non-slip safe, so reset the non-slip timer
             routineTimer.reset()
             
@@ -2461,6 +2335,216 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 routineTimer.reset()
             else:
                 routineTimer.addTime(-2.000000)
+            
+            # --- Prepare to start Routine "Break" ---
+            continueRoutine = True
+            # update component parameters for each repeat
+            thisExp.addData('Break.started', globalClock.getTime(format='float'))
+            # Run 'Begin Routine' code from code_16
+            if TrainingLoopGroup2.thisN != 39:
+                continueRoutine = False
+            # setup some python lists for storing info about the mouse2
+            mouse2.x = []
+            mouse2.y = []
+            mouse2.leftButton = []
+            mouse2.midButton = []
+            mouse2.rightButton = []
+            mouse2.time = []
+            mouse2.clicked_name = []
+            gotValidClick = False  # until a click is received
+            # Run 'Begin Routine' code from code_17
+            checkbox_ticked = False
+            
+            # Run 'Begin Routine' code from for_mouse
+            win.mouseVisible = True
+            
+            # Run 'Begin Routine' code from code_19
+            # Start the timer
+            break_timer.reset()
+            
+            # keep track of which components have finished
+            BreakComponents = [break_message, mouse2, checkbox2, text_component]
+            for thisComponent in BreakComponents:
+                thisComponent.tStart = None
+                thisComponent.tStop = None
+                thisComponent.tStartRefresh = None
+                thisComponent.tStopRefresh = None
+                if hasattr(thisComponent, 'status'):
+                    thisComponent.status = NOT_STARTED
+            # reset timers
+            t = 0
+            _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+            frameN = -1
+            
+            # --- Run Routine "Break" ---
+            routineForceEnded = not continueRoutine
+            while continueRoutine:
+                # get current time
+                t = routineTimer.getTime()
+                tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+                tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+                frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+                # update/draw components on each frame
+                
+                # *break_message* updates
+                
+                # if break_message is starting this frame...
+                if break_message.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    break_message.frameNStart = frameN  # exact frame index
+                    break_message.tStart = t  # local t and not account for scr refresh
+                    break_message.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(break_message, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'break_message.started')
+                    # update status
+                    break_message.status = STARTED
+                    break_message.setAutoDraw(True)
+                
+                # if break_message is active this frame...
+                if break_message.status == STARTED:
+                    # update params
+                    pass
+                # *mouse2* updates
+                
+                # if mouse2 is starting this frame...
+                if mouse2.status == NOT_STARTED and t >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    mouse2.frameNStart = frameN  # exact frame index
+                    mouse2.tStart = t  # local t and not account for scr refresh
+                    mouse2.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(mouse2, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.addData('mouse2.started', t)
+                    # update status
+                    mouse2.status = STARTED
+                    mouse2.mouseClock.reset()
+                    prevButtonState = mouse2.getPressed()  # if button is down already this ISN'T a new click
+                if mouse2.status == STARTED:  # only update if started and not finished!
+                    buttons = mouse2.getPressed()
+                    if buttons != prevButtonState:  # button state changed?
+                        prevButtonState = buttons
+                        if sum(buttons) > 0:  # state changed to a new click
+                            # check if the mouse was inside our 'clickable' objects
+                            gotValidClick = False
+                            clickableList = environmenttools.getFromNames(checkbox, namespace=locals())
+                            for obj in clickableList:
+                                # is this object clicked on?
+                                if obj.contains(mouse2):
+                                    gotValidClick = True
+                                    mouse2.clicked_name.append(obj.name)
+                            x, y = mouse2.getPos()
+                            mouse2.x.append(x)
+                            mouse2.y.append(y)
+                            buttons = mouse2.getPressed()
+                            mouse2.leftButton.append(buttons[0])
+                            mouse2.midButton.append(buttons[1])
+                            mouse2.rightButton.append(buttons[2])
+                            mouse2.time.append(mouse2.mouseClock.getTime())
+                            
+                            continueRoutine = False  # end routine on response
+                
+                # *checkbox2* updates
+                
+                # if checkbox2 is starting this frame...
+                if checkbox2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    checkbox2.frameNStart = frameN  # exact frame index
+                    checkbox2.tStart = t  # local t and not account for scr refresh
+                    checkbox2.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(checkbox2, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'checkbox2.started')
+                    # update status
+                    checkbox2.status = STARTED
+                    checkbox2.setAutoDraw(True)
+                
+                # if checkbox2 is active this frame...
+                if checkbox2.status == STARTED:
+                    # update params
+                    pass
+                # Run 'Each Frame' code from code_17
+                if mouse.isPressedIn(checkbox2):  # Use the actual name of the polygon component
+                    checkbox_ticked = not checkbox_ticked
+                    if checkbox_ticked:
+                        checkbox.fillColor = 'black'  # Change color to indicate it's ticked
+                    else:
+                        checkbox.fillColor = 'white'  # Change back to white if unticked
+                
+                # Run 'Each Frame' code from code_19
+                # Update the text component with the remaining time
+                remaining_time = 360 - break_timer.getTime()  # Assuming a 360-second break
+                text_component.setText(f'زمان باقی‌مانده: {remaining_time:.1f} ثانیه')
+                text_component.setFont('Arial')  # Set to a font that supports Persian
+                
+                # End the routine after 360 seconds
+                if break_timer.getTime() > 360:
+                    continueRoutine = False
+                
+                
+                # *text_component* updates
+                
+                # if text_component is starting this frame...
+                if text_component.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                    # keep track of start time/frame for later
+                    text_component.frameNStart = frameN  # exact frame index
+                    text_component.tStart = t  # local t and not account for scr refresh
+                    text_component.tStartRefresh = tThisFlipGlobal  # on global time
+                    win.timeOnFlip(text_component, 'tStartRefresh')  # time at next scr refresh
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'text_component.started')
+                    # update status
+                    text_component.status = STARTED
+                    text_component.setAutoDraw(True)
+                
+                # if text_component is active this frame...
+                if text_component.status == STARTED:
+                    # update params
+                    pass
+                
+                # check for quit (typically the Esc key)
+                if defaultKeyboard.getKeys(keyList=["escape"]):
+                    thisExp.status = FINISHED
+                if thisExp.status == FINISHED or endExpNow:
+                    endExperiment(thisExp, win=win)
+                    return
+                
+                # check if all components have finished
+                if not continueRoutine:  # a component has requested a forced-end of Routine
+                    routineForceEnded = True
+                    break
+                continueRoutine = False  # will revert to True if at least one component still running
+                for thisComponent in BreakComponents:
+                    if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                        continueRoutine = True
+                        break  # at least one component has not yet finished
+                
+                # refresh the screen
+                if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                    win.flip()
+            
+            # --- Ending Routine "Break" ---
+            for thisComponent in BreakComponents:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+            thisExp.addData('Break.stopped', globalClock.getTime(format='float'))
+            # store data for TrainingLoopGroup2 (TrialHandler)
+            TrainingLoopGroup2.addData('mouse2.x', mouse2.x)
+            TrainingLoopGroup2.addData('mouse2.y', mouse2.y)
+            TrainingLoopGroup2.addData('mouse2.leftButton', mouse2.leftButton)
+            TrainingLoopGroup2.addData('mouse2.midButton', mouse2.midButton)
+            TrainingLoopGroup2.addData('mouse2.rightButton', mouse2.rightButton)
+            TrainingLoopGroup2.addData('mouse2.time', mouse2.time)
+            TrainingLoopGroup2.addData('mouse2.clicked_name', mouse2.clicked_name)
+            # Run 'End Routine' code from code_17
+            thisExp.addData('Proceed_Break', checkbox_ticked)
+            
+            # Run 'End Routine' code from code_19
+            # Optional: Record the final time or perform other tasks
+            final_time = break_timer.getTime()
+            
+            # the Routine "Break" was not non-slip safe, so reset the non-slip timer
+            routineTimer.reset()
             thisExp.nextEntry()
             
             if thisSession is not None:
@@ -2695,6 +2779,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         test2_sound.setVolume(1.0, log=False)
         test2_sound.seek(0)
         text_8.setText('Who is speaking? press the number corresponding to the speaker.\nگوینده کیست؟ شماره گوینده را وارد کنید')
+        # create starting attributes for test2_response_keyboard
         test2_response_keyboard.keys = []
         test2_response_keyboard.rt = []
         _test2_response_keyboard_allKeys = []

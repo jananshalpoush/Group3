@@ -1,0 +1,7 @@
+5.6668 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+2.4903 	WARNING 	t of last frame was 44.10ms (=1/22)
+4.6653 	WARNING 	t of last frame was 55.22ms (=1/18)
+11.7837 	WARNING 	t of last frame was 20.40ms (=1/49)

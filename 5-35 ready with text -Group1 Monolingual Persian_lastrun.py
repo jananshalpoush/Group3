@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2024.1.4),
-    on Wed Jul 17 14:21:03 2024
+This experiment was created using PsychoPy3 Experiment Builder (v2024.1.5),
+    on Sun Jul 21 12:07:17 2024
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -39,7 +39,7 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2024.1.4'
+psychopyVersion = '2024.1.5'
 expName = '5-34 ready-monolingual persian speaker'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
@@ -131,7 +131,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/ohtalab2/Desktop/Experiment Folder/5-35 ready with text -Group1 Monolingual Persian_lastrun.py',
+        originPath='/Users/ohtalab2/Desktop/untitled folder 9/Experiment Folder/5-35 ready with text -Group1 Monolingual Persian_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -869,6 +869,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     continueRoutine = True
     # update component parameters for each repeat
     thisExp.addData('GroupSelection.started', globalClock.getTime(format='float'))
+    # create starting attributes for key_resp
     key_resp.keys = []
     key_resp.rt = []
     _key_resp_allKeys = []
@@ -1038,6 +1039,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     gotValidClick = False  # until a click is received
     # Run 'Begin Routine' code from CheckBoxLogic
     checkbox_ticked = False
+    
+    # Run 'Begin Routine' code from code_4
+    win.mouseVisible = True
     
     # keep track of which components have finished
     HeadphoneCheckComponents = [text_13, mouse, checkbox]
@@ -2128,6 +2132,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             sound1.setVolume(1.0, log=False)
             sound1.seek(0)
             Instruction.setText('Who is speaking? press the number corresponding to the speaker.\nگوینده کیست؟ شماره گوینده را وارد کنید\n')
+            # create starting attributes for ResponseKey
             ResponseKey.keys = []
             ResponseKey.rt = []
             _ResponseKey_allKeys = []
@@ -2691,6 +2696,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         test1_sound.setVolume(1.0, log=False)
         test1_sound.seek(0)
         text_3.setText('Who is speaking? press the number corresponding to the speaker.\nگوینده کیست؟ شماره گوینده را وارد کنید')
+        # create starting attributes for test1_response_keyboard
         test1_response_keyboard.keys = []
         test1_response_keyboard.rt = []
         _test1_response_keyboard_allKeys = []
