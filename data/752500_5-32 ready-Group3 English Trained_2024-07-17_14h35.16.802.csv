@@ -1,4 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,polygon.started,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.009137291999650188,0.009450124998693354,,,,,,,,,,,,752500,001,2024-07-17_14h35.16.802,5-32 ready-Group3 English Trained,2024.1.4,None,2024-07-17 14h35.21.883739 +0900,
-,,,,0.009465416998864384,0.013768834000075003,0.013768834000075003,1.2147792089999712,3,1.1594659999973373,None,,,,,752500,001,2024-07-17_14h35.16.802,5-32 ready-Group3 English Trained,2024.1.4,None,2024-07-17 14h35.21.883739 +0900,
-,,,,,,,,,,,1.2148094169970136,,6.000000212225132e-05,,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2807d7fbf85e65894bf2b7ce2b00cb639dff68a605b8d34a38f368a08eaff90
+size 785

@@ -1,4 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,Introduction.started,text_2.started,image.started,sound_7.started,text_4.started,text_2.stopped,sound_8.started,image.stopped,text_4.stopped,image_7.started,sound_9.started,text_5.started,sound_10.started,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.009268333998988965,0.00964087499960442,,,,,,,,,,,,,,,,,,,,,758300,001,2024-07-03_12h53.41.389,5-all in one,2024.1.4,None,2024-07-03 12h53.45.927190 +0900,
-,,,,0.00965479199840047,0.013845542000126443,0.013845542000126443,1.2372510839995812,2,1.1887472920006985,None,,,,,,,,,,,,,,758300,001,2024-07-03_12h53.41.389,5-all in one,2024.1.4,None,2024-07-03 12h53.45.927190 +0900,
-,,,,,,,,,,,1.2372811249988445,1.290702667000005,6.238008166999862,6.24741145866598,6.238008166999862,6.281755791998876,11.239512583666754,16.229248583998924,16.229248583998924,16.229248583998924,16.238963375666813,16.229248583998924,21.246567458665837,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebace3475278a31bb1b0478dced34ca8e708d6c03f7232d7dbf7bcfd695e51c1
+size 1093

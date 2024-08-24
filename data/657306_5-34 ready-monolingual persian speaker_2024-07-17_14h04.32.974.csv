@@ -1,5 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,checkbox.started,HeadphoneCheck.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.clicked_name,Headphone_Used,Introduction.started,text_2.started,image.started,sound_7.started,text_4.started,text_2.stopped,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.0093385420004779,0.009675792000052752,,,,,,,,,,,,,,,,,,,,,,,,,,,657306,001,2024-07-17_14h04.32.974,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h04.38.135847 +0900,
-,,,,0.009690541999589186,0.014105374999417108,0.014105374999417108,0.47499279200019373,1,0.41976141600025585,None,,,,,,,,,,,,,,,,,,,,657306,001,2024-07-17_14h04.32.974,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h04.38.135847 +0900,
-,,,,,,,,,,,0.4750198340007046,0.4848823339998489,5.254199822957162e-05,0.4848823339998489,1.4801077499996609,[-0.029531568228105907],[0.14765784114052954],[1],[0],[0],[1.0045016249987384],[],False,,,,,,,657306,001,2024-07-17_14h04.32.974,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h04.38.135847 +0900,
-,,,,,,,,,,,,,,,,,,,,,,,,1.4802861669995764,1.5394039999991946,6.477294250000341,6.482669125666022,6.477294250000341,6.53761037500044,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f3287fc5bd7d866072a3bd277580080bd0bd31e13776ae2ac9c6a7d6a79dfee
+size 1461

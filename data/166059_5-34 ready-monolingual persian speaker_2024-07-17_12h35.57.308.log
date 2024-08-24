@@ -1,6 +1,3 @@
-5.0353 	WARNING 	Couldn't measure a consistent frame rate!
-  - Is your graphics card set to sync to vertical blank?
-  - Are you running other processes on your computer?
-
-15.0665 	WARNING 	t of last frame was 70.48ms (=1/14)
-21.3215 	WARNING 	t of last frame was 43.28ms (=1/23)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1822f3c72afec0f32eaae9d496bc6e979be1f267b988642bbba0858779ade501
+size 279

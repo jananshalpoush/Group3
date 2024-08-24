@@ -1,4 +1,3 @@
-﻿thisRow.t,notes,Initialize.started,Initialize.stopped,GroupSelection.started,GroupInstructions.started,ker_resp.started,GroupSelection.stopped,ker_resp.keys,ker_resp.rt,ker_resp.duration,RoutingRoutine.started,RoutingRoutine.stopped,GroupSelection,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.010083792003570125,0.010402041996712796,,,,,,,,,,,063097,001,2024-06-22_17h19.22.875,5-10,2024.1.4,None,2024-06-22 17h19.27.424689 +0900,
-,,,,0.010422791994642466,0.015016874996945262,0.015016874996945262,1.0148065840039635,1,0.9651227080030367,None,,,,063097,001,2024-06-22_17h19.22.875,5-10,2024.1.4,None,2024-06-22 17h19.27.424689 +0900,
-,,,,,,,,,,,1.0148416250012815,1.015080458993907,1,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c9d1c5376eb90217f7081959881f386322ee8f3aa0013149deb2e93fc7607db
+size 723

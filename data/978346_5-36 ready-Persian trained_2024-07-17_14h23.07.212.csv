@@ -1,5 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,checkbox.started,text_13.stopped,mouse.stopped,checkbox.stopped,HeadphoneCheck.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.clicked_name,Headphone_Used,Introduction.started,text_2.started,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.00838241699966602,0.008765041999140522,,,,,,,,,,,,,,,,,,,,,,,,,,978346,001,2024-07-17_14h23.07.212,5-36 ready-Persian trained,2024.1.4,None,2024-07-17 14h23.12.233790 +0900,
-,,,,0.008780333999311551,0.013623875001940178,0.013623875001940178,2.1465564999998605,2,2.093992124999204,None,,,,,,,,,,,,,,,,,,,978346,001,2024-07-17_14h23.07.212,5-36 ready-Persian trained,2024.1.4,None,2024-07-17 14h23.12.233790 +0900,
-,,,,,,,,,,,2.146591917000478,2.1568683340010466,6.533299892907962e-05,2.1568683340010466,7.194407499999215,4.99319020799885,7.194407499999215,7.1414150839991635,[],[],[],[],[],[],[],False,,,978346,001,2024-07-17_14h23.07.212,5-36 ready-Persian trained,2024.1.4,None,2024-07-17 14h23.12.233790 +0900,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,7.141643375001877,7.194407499999215,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:5883fb0069f815fc368361c1ec379a97243ec773b7e48efdb8211c0dab0ccd5b
+size 1325

@@ -1,5 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,checkbox.started,HeadphoneCheck.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.clicked_name,Headphone_Used,Introduction.started,text_2.started,image.started,sound_7.started,text_4.started,text_2.stopped,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.0078362920003201,0.008178416999726323,,,,,,,,,,,,,,,,,,,,,,,,,,,946812,001,2024-07-21_10h57.18.651,5-32 ready-Group3 English Trained,2024.1.5,None,2024-07-21 10h57.23.651787 +0900,
-,,,,0.008211334000407078,0.012338833999820054,0.012338833999820054,2.480671500000426,3,2.4319673750005677,None,,,,,,,,,,,,,,,,,,,,946812,001,2024-07-21_10h57.18.651,5-32 ready-Group3 English Trained,2024.1.5,None,2024-07-21 10h57.23.651787 +0900,
-,,,,,,,,,,,2.4807010840004295,2.4902988339999865,6.020799992256798e-05,2.4902988339999865,4.614346459000444,[-0.04989816700610998],[-0.002036659877800407],[1],[0],[0],[2.132966750000378],[],False,,,,,,,946812,001,2024-07-21_10h57.18.651,5-32 ready-Group3 English Trained,2024.1.5,None,2024-07-21 10h57.23.651787 +0900,
-,,,,,,,,,,,,,,,,,,,,,,,,4.6145066669996595,4.665261459000249,9.62255691700011,9.627960625666917,9.62255691700011,9.661077208999814,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:712f0b2c4cb167c5399f164634175818681d347369e3e59d4b9fda37ab5f095f
+size 1440

@@ -1,5 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,checkbox.started,HeadphoneCheck.stopped,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.clicked_name,Headphone_Used,Introduction.started,text_2.started,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.009101082998313359,0.009401166998941335,,,,,,,,,,,,,,,,,,,,,,,393711,001,2024-07-17_14h02.14.828,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h02.19.823377 +0900,
-,,,,0.009415332999196835,0.013825082998664584,0.013825082998664584,0.384470874998442,1,0.33125783300056355,None,,,,,,,,,,,,,,,,393711,001,2024-07-17_14h02.14.828,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h02.19.823377 +0900,
-,,,,,,,,,,,0.38449629199931223,0.3938731669986737,7.604200072819367e-05,0.3938731669986737,5.390265374999217,[],[],[],[],[],[],[],False,,,393711,001,2024-07-17_14h02.14.828,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 14h02.19.823377 +0900,
-,,,,,,,,,,,,,,,,,,,,,,,,5.390447541998583,5.445849749999979,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfcc3f54aad3cabbd8df872fd042e024ba14033c26bad986ef5935b52e79f1d6
+size 1255

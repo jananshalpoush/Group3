@@ -1,4 +1,3 @@
-﻿thisRow.t,notes,trial.started,trial.stopped,GroupSelection.started,GroupInstructions.started,key_resp.started,GroupSelection.stopped,key_resp.keys,key_resp.rt,key_resp.duration,HeadphoneCheck.started,text_13.started,mouse.started,checkbox.started,text_13.stopped,mouse.stopped,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.009051707998878555,0.009375624998938292,,,,,,,,,,,,,,721722,001,2024-07-17_13h56.13.188,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 13h56.18.923613 +0900,
-,,,,0.009386749999976018,0.013798250000036205,0.013798250000036205,1.768491124999855,1,1.7166912920001778,None,,,,,,,721722,001,2024-07-17_13h56.13.188,5-34 ready-monolingual persian speaker,2024.1.4,None,2024-07-17 13h56.18.923613 +0900,
-,,,,,,,,,,,1.7685251249986322,1.7786791660000745,5.487500129675027e-05,1.7786791660000745,6.766725207999116,4.995497249999971,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:a29dc44e29e442917c153d07fa17cb3d05d11cfabacc8afbca06493d17919bdd
+size 901

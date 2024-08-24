@@ -1,6 +1,3 @@
-﻿thisRow.t,notes,routine_1.started,routine_1.stopped,Initialize.started,Initialize.stopped,GroupSelection.started,GroupInstructions.started,ker_resp.started,GroupInstructions.stopped,ker_resp.stopped,GroupSelection.stopped,ker_resp.keys,RoutingRoutine.started,RoutingRoutine.stopped,Introduction.started,text_2.started,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,0.006219707996933721,0.007514625001931563,,,,,,,,,,,,,,112599,001,2024-06-22_18h13.30.603,5-10,2024.1.4,None,2024-06-22 18h13.49.795152 +0900,
-,,,,0.007531583003583364,0.007692832994507626,,,,,,,,,,,,112599,001,2024-06-22_18h13.30.603,5-10,2024.1.4,None,2024-06-22 18h13.49.795152 +0900,
-,,,,,,0.007699790992774069,0.010959790990455076,0.010959790990455076,5.034258250001585,5.034258250001585,4.9943132079934,None,,,,,112599,001,2024-06-22_18h13.30.603,5-10,2024.1.4,None,2024-06-22 18h13.49.795152 +0900,
-,,,,,,,,,,,,,4.994326415995602,4.9944940409914125,,,112599,001,2024-06-22_18h13.30.603,5-10,2024.1.4,None,2024-06-22 18h13.49.795152 +0900,
-,,,,,,,,,,,,,,,4.994503665991942,5.034258250001585,,,,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:b045afd34425cd0047e86303c4acc7f3c96587a5361eb0494fa3ebb397a6244d
+size 1097
